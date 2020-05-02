@@ -1,0 +1,517 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.header{
+    background-color:#316dc3 ;
+    width: 100%;
+    height: 40px;
+  
+}
+.social{
+  
+   margin: 0px auto;
+   width: 75%;
+   display: flex;
+   justify-content: center;
+
+}
+
+
+.Sicon{
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.top
+{
+    width: 650px;
+    color: white;
+    height: 20px;
+     text-align: center;
+     padding-top: 10px;
+     margin-left: 10px;
+  font-size: 16px;
+
+}
+
+.rtop{
+
+    width: 300px;
+   margin-top: 5px;
+   padding-left: 15px;
+}
+
+.btn{
+
+    background-color: whitesmoke;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+
+}
+
+
+
+/* .logo{
+    
+    width: 120px;
+    margin-left: 10px;
+   background-color: hotpink;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+
+ */
+.grey-container{
+    width: 100%;
+    background-color: #f7f8fa !important;
+    z-index: 1000;
+}
+
+ .container2{
+    
+    width: 75%;
+    height: 50px;
+    margin: 0px auto;
+    
+
+    
+  }
+
+  .logopic{
+    width: 150px;
+    height: 50px;
+    
+}
+
+.logo img{
+    float:left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+
+nav ul li{
+  margin-right: 8px;
+    float: left;
+  padding:5px 0px;
+  font-size:20px; font-family:raleway;
+  position: relative;
+  
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 24px;
+    display: block;
+    
+
+}
+
+nav ul li a:hover{
+    color:white;
+    background-color: #316dc3;
+    transition: all 0.3s ease-in;
+    
+  }
+  
+
+nav ul li .dropdown  {
+    display: none;
+    position: absolute;
+    background-color:white  ;
+
+}
+
+nav ul li:hover .dropdown{
+    margin-top: 5px ;
+    display: block;
+    
+}
+
+nav ul li .dropdown li {
+    width: 180px;
+    background-color: white;
+}
+
+nav ul li .dropdown li a{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 14px;
+    border-radius: 0px;
+}
+
+nav ul li .dropdown li a:hover ul li{
+    display: block;
+    background-color: #316dc3;
+    transform: translate(100%,0);
+    background-color: white;
+}
+
+nav ul li .dropdown ul li  {
+ display: none; 
+ position: relative;  
+}
+nav ul li .dropdown :hover ul li{
+    display: block;
+    transform: translate(-100%);
+    
+}
+
+nav ul li ul li ul li ul {
+    display: none;
+}
+
+.slide{
+    background-image: url(/Corona\ _Banner.jpeg);
+    background-size: cover;
+    height: 450px;
+}
+
+.news{
+width: 75%;
+    height: 30px;
+   
+    color: white;
+    background-color:#316dc3 ;
+    margin: 10px auto;
+    padding-top: 10px;
+    
+
+}
+
+.text{
+    text-align: center;
+    width: 75%;
+    
+    margin: 0px auto;
+    margin-bottom: 15px;
+    
+
+}
+
+
+
+.grey{
+    padding: 15px 0px;
+    background-color: #f7f8fa;
+    }
+
+.introText{
+
+    
+    margin-top: 15px;
+   
+    font-size: 18px;
+  
+}
+.introText {
+    color: #666666 !important;
+    line-height: 2.2;
+    text-align: left;
+   
+}
+
+.heading{
+    text-transform: uppercase;
+}
+.temp{
+    color: #9dec3b ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section{
+    height: 300px;
+    width: 100%;
+    
+    background-color:#0066ff;
+}
+
+.green{position: relative;
+    bottom: 15;
+    font-weight: 600;
+}
+
+.center-img{
+    align-items: center;
+}
+
+.d1{
+    margin-top: 50px;
+    text-align: center;
+width: 320px;
+height: 200px;
+display: inline-block;
+color: white;
+text-transform: uppercase;
+}
+
+.d1 h2{
+    margin: 10px 0px;
+    font-size: 42px;
+    font-weight: 600;
+    
+}
+
+.d1 h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.one-row{
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+}
+
+.Cimg{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.temp2 {
+    color: green;
+}
+
+
+.mini-logo{
+    
+    margin-top: 20px;
+    height: 40px;
+   
+}
+
+.row-service{
+
+    margin: 10px 0px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+
+/* .sadqah{
+    width: 400px;
+    height: 250px;
+    border: 1px solid green;
+}
+
+.welfare{
+    width: 400px;
+    height: 250px;
+    border: 1px solid green;
+}
+
+.medical{
+    width: 400px;
+    height: 250px;
+    border: 1px solid green;
+
+}
+
+.dastarkhan{
+    width: 400px;
+    height: 250px;
+    border: 1px solid green;
+
+}
+
+.ro-plant{
+    width: 400px;
+    height: 250px;
+    border: 1px solid green;
+
+}
+
+.education{
+    width: 400px;
+    height: 250px;
+    border: 1px solid green;
+
+} */
+
+.boxes{
+    width: 380px;
+    height: 150px;
+  background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    padding: 20px 0px;
+    color:#316DC3 ;
+}
+
+.boxes img{
+    width: 60px;
+    margin: 20px 0px;
+}
+.project{
+    width: 75%;
+    margin: 0px auto 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.m-size{
+    width:250px; 
+    height:200px;
+}
+
+.working{
+    
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px;
+    color: #316DC3;
+    
+    font: 1em sans-serif;
+    background-color: #f7f8fa;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    
+}
+.working h4{
+
+    padding-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+.working img{
+    float: left;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.one-line h2{
+    margin: 40px 0px;
+    text-align: center;
+    color: #316DC3;
+    
+}
+
+.events h2{
+    margin: 50px 0px 20px 0px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #316DC3;
+    text-transform: uppercase;
+}
+
+
+.img-section{
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.img-row{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.img-row img{
+    height: 150px;
+    padding-left: 5px;
+    
+}
+.footer{
+    background-color: rgb(37, 39, 46) ;
+    width: 100%;
+    
+  
+}
+.address{
+    width: 75%;
+    margin: 0px auto;
+    
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #bbb;
+}
+
+.f-left{
+    line-height: 2;
+}
+
+.f-left ul{
+    list-style: none;
+
+}
+.f-left ul li li{
+    display: inline-block;
+}
+
+.links{
+    margin-top: 20px;
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.icons{
+    
+    margin-right: 5px;
+    padding-left: 8px;
+    width: 25px;
+}
+
+.f-middle{
+    width: 400px;
+    
+}
+
+.f-middle h2::after{
+    content: '';
+    background-color: green;
+    width: 70px;
+    height: 3px;
+    display: block;
+
+}
+
+.lower-footer{
+
+    width: 75%;
+    margin: 0px auto;
+    
+}
+.full{
+    width: 100%;
+    background-color:#316DC3 ;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+}
